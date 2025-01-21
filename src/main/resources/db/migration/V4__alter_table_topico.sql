@@ -1,0 +1,2 @@
+ALTER TABLE tópico CHANGE fechaCreacion fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+

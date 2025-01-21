@@ -1,5 +1,6 @@
 package com.alurachallenge.forohub.model;
 
+import com.alurachallenge.forohub.usuarios.Usuario;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 

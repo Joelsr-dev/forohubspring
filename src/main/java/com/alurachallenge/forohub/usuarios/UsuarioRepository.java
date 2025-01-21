@@ -1,12 +1,12 @@
-package com.alurachallenge.forohub.repository;
+package com.alurachallenge.forohub.usuarios;
 
-import com.alurachallenge.forohub.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Repository;
+
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
-    // Puedes agregar métodos personalizados si es necesario
-    // Ejemplo: Buscar usuario por correo electrónico
+    UserDetails findByLogin(String username);
     Usuario findByCorreoElectronico(String correoElectronico);
 }

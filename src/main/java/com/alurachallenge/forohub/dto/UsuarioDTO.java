@@ -1,7 +1,7 @@
 package com.alurachallenge.forohub.dto;
 
 import com.alurachallenge.forohub.model.Perfil;
-import com.alurachallenge.forohub.model.Usuario;
+import com.alurachallenge.forohub.usuarios.Usuario;
 
 import java.util.Set;
 
